@@ -136,7 +136,7 @@ public class PersonFormApp extends Application {
             alert.showAndWait();
         });
 
-        // Main Layout (Form on Left, Picture on Right)
+        // Main layout
         HBox mainLayout = new HBox(20, formLayout, imageLayout);
         formLayout.getChildren().addAll(banner, nameBox, fatherNameBox, cnicBox, dateBox, genderBox, cityBox, saveButton);
 
